@@ -181,7 +181,7 @@
     </instance>
     <instance name="Geologica Light" familyname="Geologica" stylename="Light" filename="../instance_ufo/Geologica-Light.ufo" stylemapfamilyname="Geologica Light" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="92"/>
+        <dimension name="Weight" xvalue="54"/>
         <dimension name="Cursive" xvalue="0"/>
         <dimension name="Sharpness" xvalue="0"/>
         <dimension name="Slant" xvalue="0"/>
