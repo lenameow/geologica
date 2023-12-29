@@ -6,20 +6,20 @@ buildOTF: False
 buildWebfont: False
 # buildTTF: False
 axisOrder:
-  - SHRP
-  - wght
   - CRSV
-  - slnt
+  - wght
 familyName: "Geologica"
 stat:
-  - name: Sharpness
-    tag: SHRP
+  - name: Cursive
+    tag: CRSV
     values:
-    - name: Blunt
+    - name: Cursive
+      value: 1
+    - name: Roman
       value: 0
-      flags: 2
-    - name: Sharp
-      value: 100
+      # flags: 2
+    - name: Auto
+      value: 0.5
   - name: Weight
     tag: wght
     values:
@@ -43,22 +43,6 @@ stat:
       value: 800
     - name: Black
       value: 900
-  - name: Cursive
-    tag: CRSV
-    values:
-    - name: Roman
-      value: 0
-      flags: 2
-    - name: Cursive
-      value: 1
-  - name: Slant
-    tag: slnt
-    values:
-    - name: Default
-      value: 0
-      flags: 2
-    - name: Oblique
-      value: -12
 
 # statFormat4:
 #   - name: Upright 
@@ -71,4 +55,4 @@ stat:
 #       slnt: -12
 #       CRSV: 1
 
-# cleanUp: False
+cleanUp: False
